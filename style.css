@@ -72,8 +72,8 @@ img.avatar {
 }
 
 .my-title {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 250;
   color: #236FB2;
 }
 
@@ -95,6 +95,12 @@ img.avatar {
 /***********************************
 * =Experience
 ***********************************/
+
+.sesi {
+  width: 40%;
+  padding-bottom: 20px;
+
+}
 
 .job {
   padding-bottom: 24px;
