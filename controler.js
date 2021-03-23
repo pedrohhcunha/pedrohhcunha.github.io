@@ -12,6 +12,7 @@ window.onscroll = () => {
     document.querySelector('.prev').classList.toggle('active', window.scrollY > 800)
     document.querySelector('.next').classList.toggle('active', window.scrollY < 1800)
 }
+
 btnMenu.addEventListener('click', () => {
     if (options.classList.contains('active')) {
         options.classList.remove('active')
@@ -62,3 +63,12 @@ closeProject.forEach(btn => {
         });
     })
 });
+
+document.onkeydown = (e) => {
+    if(e.key === "Escape") {
+        document.querySelector('body').classList.remove('active-modal')
+        document.querySelectorAll('.modal').forEach(element => {
+            element.classList.remove('active')
+        });
+    }
+}
