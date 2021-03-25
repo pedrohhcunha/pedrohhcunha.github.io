@@ -493,6 +493,7 @@ html {
     font-size: 18px;
     color: #c3c5ec;
     margin: 15px;
+    text-align: justify;
 }
 .modal img{
     width: 80vw;
@@ -501,6 +502,18 @@ html {
 .modal button{
     font-size: 16px;
     text-transform: uppercase;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    border-radius: 2px;
+    transition: .5s;
+    cursor: pointer;
+}
+.modal a{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
     padding: 5px 10px;
     border: 2px solid #fff;
     background: none;
