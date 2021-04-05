@@ -7,7 +7,7 @@
 body{
     background: url(img/binario.jpg) no-repeat;
     overflow-x: hidden;
-    background-size: 300px 100px;
+    background-size: 100% 100%;
 }
 body.active-modal{
     overflow: hidden;
