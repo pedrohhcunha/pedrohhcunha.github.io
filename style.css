@@ -7,7 +7,7 @@
 body{
     background: url(img/binario.jpg) no-repeat;
     overflow-x: hidden;
-    background-size: 100% 100%;
+    background-size: 100% 100vh;
 }
 body.active-modal{
     overflow: hidden;
@@ -536,9 +536,39 @@ html {
         transform: rotate(-90deg) translateX(0px);
     }
 }
+@media (max-width: 1024px){
+    #forth-section .content-blog{
+        display: initial;
+    }
+    #forth-section .content-blog .card{
+        width: 50%;
+        transform: translateX(0);
+        margin: 20px auto;
+    }
+    #forth-section .content-blog img{
+        height: auto;
+        width: 100%;
+    }
+}
 @media (max-width: 768px) {
     #second-section img{
         display: none;
+    }
+    #second-section .area-sobre .sobre{
+        width: 100%;
+    }
+    #forth-section .content-blog .card{
+        width: 100%;
+    }
+    #contato .area-contact-box{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        justify-content: center;
+    }
+    #contato .area-contact-box .contact-box{
+        background-color: #00010f59;
+        color: #fff;
     }
 }
 @media (max-width: 500px) {
