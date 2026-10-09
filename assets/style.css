@@ -64,7 +64,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* ── Barra de estado ─────────────────────────────────────────────── */
 .topo {
-  position: sticky; top: 0; z-index: 50;
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50;
   background: color-mix(in srgb, var(--ink) 82%, transparent);
   backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(14px) saturate(140%);
@@ -333,9 +333,12 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .spec ul { list-style: none; margin: 16px 0 22px; padding: 0; }
 .spec li { padding: 10px 0; border-top: 1px solid var(--fio); color: var(--texto-2); font-size: 14.5px; }
 .spec li b { font-weight: 500; color: var(--texto-forte); }
-.stack { display: flex; flex-wrap: wrap; gap: 6px; }
-.stack span { padding: 6px 10px; border: 1px solid var(--fio); border-radius: 6px; font: 400 12px/1 var(--mono); color: var(--texto-2); transition: border-color .2s, color .2s; }
-.stack span:hover { border-color: var(--lilas); color: var(--lilas); }
+.stack .label { display: block; margin-bottom: 14px; }
+.stack-linha { display: grid; grid-template-columns: 112px 1fr; gap: 12px; align-items: start; padding: 12px 0; border-top: 1px solid var(--fio); }
+.stack-linha > .mono { padding-top: 5px; color: var(--lilas); font-size: 11.5px; }
+.stack-linha > div { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; }
+.stack-linha > div span { padding: 5px 9px; border: 1px solid var(--fio); border-radius: 6px; font: 400 12px/1.2 var(--mono); color: var(--texto-2); transition: border-color .2s, color .2s; }
+.stack-linha > div span:hover { border-color: var(--lilas); color: var(--lilas); }
 
 /* ── 05 · Contato ────────────────────────────────────────────────── */
 .contato { padding: 128px 0 112px; border-bottom: 1px solid var(--fio); }
@@ -432,6 +435,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 }
 @media (max-width: 560px) {
   :root { --gutter: 16px; }
+  .stack-linha { grid-template-columns: 1fr; gap: 8px; }
   .secao { padding: 88px 0; }
   .contato { padding: 88px 0; }
   .hero h1 .linha:nth-child(2) { padding-left: .3em; }

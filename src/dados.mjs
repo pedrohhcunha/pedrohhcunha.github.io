@@ -88,10 +88,19 @@ export const TRAJETORIA = [
   { quando: '2019', titulo: 'A primeira linha de HTML', texto: 'Curso técnico em Desenvolvimento de Sistemas no SESI SENAI de Chapecó, junto com o ensino médio.' },
   { quando: '2020', titulo: 'Aprender refazendo', texto: 'Refiz do zero as telas da Netflix em cerca de oito horas, sem framework. Depois vieram Prime Video, Tesla e Guaraná Antarctica, tudo em HTML, CSS e JavaScript.' },
   { quando: '2021', titulo: 'Faculdade e conteúdo', texto: 'Análise e Desenvolvimento de Sistemas na Faculdade SENAI e os primeiros posts sobre programação no Instagram.' },
-  { quando: '2022', titulo: 'Primeiros clientes', texto: 'Sites e sistemas para empresas, como a landing page da Onfinity, já com React e Node.js.' },
   { quando: '2023', titulo: 'Cofundador da InTracer', texto: 'A primeira empresa própria, de julho de 2023 a maio de 2024.' },
   { quando: '2024', titulo: 'CTO e sócio da Epicora', texto: 'Arquitetura, time de tecnologia e processo de entrega. Hoje a Epicora opera com IA de ponta a ponta, do escopo ao código.', atual: true },
   { quando: '2026', titulo: 'Palco', texto: 'Treinamento de IA aplicada a negócios para empresários na Conquer Chapecó.' },
 ];
 
-export const STACK = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'React Native', 'Node.js', 'NestJS', 'MongoDB', 'Claude Code'];
+// Stack por área: o que aparece nos repositórios do Pedro e nos projetos da Epicora.
+export const STACK = [
+  ['Front-end', ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Vite', 'Tailwind CSS', 'shadcn/ui', 'TanStack Query', 'React Hook Form', 'Zod', 'Three.js', 'Framer Motion']],
+  ['Mobile', ['React Native', 'Expo', 'Flutter', 'Dart', 'SQLite offline']],
+  ['Back-end', ['Node.js', 'NestJS', 'Socket.IO', 'BullMQ', 'PHP', 'Java', 'Ruby on Rails', 'Python']],
+  ['Dados', ['MongoDB', 'Mongoose', 'PostgreSQL', 'Prisma', 'Supabase', 'Redis', 'Firebase', 'MySQL']],
+  ['Infra', ['AWS', 'Vercel', 'Cloudflare', 'Docker', 'GitHub Actions']],
+  ['IA e automação', ['Claude API', 'Claude Code', 'OpenAI API', 'AI SDK', 'Agentes de WhatsApp', 'Playwright', 'Puppeteer', 'Whisper', 'Remotion']],
+  ['Integrações', ['WhatsApp Cloud API', 'Stripe', 'AWS SES', 'ERPs e APIs de terceiros']],
+  ['Embarcados', ['C++', 'ESP']],
+];

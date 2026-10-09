@@ -109,7 +109,7 @@ const htmlTrajetoria = TRAJETORIA.map((t) => `              <li class="parada${t
                 <p>${esc(t.texto)}</p>
               </li>`).join('\n');
 
-const htmlStack = STACK.map((s) => `              <span>${esc(s)}</span>`).join('\n');
+const htmlStack = STACK.map(([area, itens]) => `              <div class="stack-linha"><span class="mono">${esc(area)}</span><div>${itens.map((i) => `<span>${esc(i)}</span>`).join('')}</div></div>`).join('\n');
 
 function jsonld(hoje, lista) {
   const pessoa = {
