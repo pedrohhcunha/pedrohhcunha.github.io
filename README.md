@@ -6,8 +6,14 @@ No ar em https://pedrohhcunha.github.io/
 Visual: marca Epicora com a gramática do Watchtower (a mesma do Epicora Atlas):
 fundo ink, fio de 1 px, roxo `#6100ff` só para ação, verde-água só para "no ar",
 Space Grotesk nos títulos, Alexandria no corpo e Space Mono nos códigos.
-O conceito é o traço **Problema → Produto → Impacto**, que se desenha no topo
-e acompanha a rolagem pela espinha à esquerda.
+
+Seções: hero com o **retrato em pontos** (canvas, ~9 mil pontos com física de mola
+que reage ao mouse e ao clique), faixa de logos, índice de trabalho com o número
+de cada case e prévia que segue o cursor, depoimentos, **treinamentos e palestras**
+(vídeo da Conquer, slides, formatos e temas), artigos, front-end (trajetória e o
+editor que digita o código do retrato) e contato. O botão **raio-x** mostra o site
+por dentro: grid, componentes com tamanho real e um painel com quadros/s, nós no
+DOM e peso transferido.
 
 ## Como funciona
 
@@ -20,13 +26,16 @@ e acompanha a rolagem pela espinha à esquerda.
 - `links/` é a página de links para a bio do Instagram.
 - `tools/render.cjs` regera a imagem de compartilhamento (`assets/og.jpg`) e o
   ícone a partir de `tools/og.html` (precisa do Playwright).
+- `assets/img/retrato-pontos.png` é a fonte do retrato em pontos: cada pixel claro vira um ponto.
+- `assets/media/palco.*` é o loop de 8 s da palestra na Conquer (C0477, 4:51).
 
 ## Mudar alguma coisa
 
 | Quero mudar | Onde |
 |---|---|
 | Texto de uma seção | `src/template.html` |
-| Case novo da Epicora | `SISTEMAS` em `src/dados.mjs` |
+| Case novo da Epicora | `TRABALHO` em `src/dados.mjs` (+ capa em `assets/cases/`) |
+| Logos, depoimentos, formatos e temas de treinamento | `src/dados.mjs` |
 | Trajetória | `TRAJETORIA` em `src/dados.mjs` |
 | Cores, tipografia, layout | `assets/style.css` |
 | Animações | `assets/site.js` |

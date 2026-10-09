@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>document.documentElement.classList.add('js')</script>
-  <title>Pedro Cunha · CTO da Epicora | Software sob medida e IA aplicada</title>
-  <meta name="description" content="Pedro Cunha é CTO e sócio da Epicora Software House, em Chapecó (SC). Constrói software sob medida e coloca IA para trabalhar dentro de empresas: sistemas no ar, artigos e trajetória.">
+  <title>Pedro Cunha · CTO da Epicora | Software sob medida e treinamentos de IA</title>
+  <meta name="description" content="Pedro Cunha é CTO e sócio da Epicora Software House, em Chapecó (SC). Lidera o time que já entregou mais de 60 sistemas e dá treinamentos e palestras de IA aplicada a negócios para empresários e times.">
   <link rel="canonical" href="{{SITE}}">
   <meta name="author" content="Pedro Henrique Hoffmann da Cunha">
   <meta name="theme-color" content="#08080a">
@@ -15,12 +15,12 @@
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Pedro Cunha">
   <meta property="og:title" content="Pedro Cunha · CTO da Epicora">
-  <meta property="og:description" content="Software sob medida e IA aplicada em empresas de verdade. Sistemas no ar, artigos e trajetória.">
+  <meta property="og:description" content="Software sob medida, IA em produção e treinamentos de IA aplicada para empresas.">
   <meta property="og:url" content="{{SITE}}">
   <meta property="og:image" content="{{SITE}}assets/og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Pedro Cunha, CTO da Epicora, e o traço Problema, Produto, Impacto">
+  <meta property="og:image:alt" content="Pedro Cunha, CTO da Epicora, em retrato de pontos">
   <meta property="profile:first_name" content="Pedro">
   <meta property="profile:last_name" content="Cunha">
   <meta name="twitter:card" content="summary_large_image">
@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500&family=Space+Grotesk:wght@400;500&family=Space+Mono&display=swap">
-  <link rel="preload" as="image" href="assets/img/pedro-720.webp" imagesrcset="assets/img/pedro-720.webp 720w, assets/img/pedro-1200.webp 1200w" imagesizes="(max-width: 1000px) 360px, 520px">
+  <link rel="preload" as="image" href="assets/img/retrato-pontos.png">
   <link rel="stylesheet" href="assets/style.css?v={{VERSAO}}">
 
   <script type="application/ld+json">{{JSONLD}}</script>
@@ -43,17 +43,18 @@
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
     <symbol id="seta" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="sai" viewBox="0 0 16 16"><path d="M5 11l6-6M6 5h5v5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="aspas" viewBox="0 0 32 24"><path d="M0 24V14C0 5.6 4.4.9 12.2 0l1.3 3.3C9 4.6 6.9 7.4 6.7 11H13v13H0zm18 0V14C18 5.6 22.4.9 30.2 0l1.3 3.3C27 4.6 24.9 7.4 24.7 11H31v13H18z" fill="currentColor"/></symbol>
   </svg>
 
   <div class="espinha" aria-hidden="true"><b></b></div>
 
-  <header class="topo">
+  <header class="topo" data-x="header.topo · sticky · backdrop-filter">
     <div class="wrap">
       <a class="marca" href="#topo" aria-label="Pedro Cunha, início">
         <svg class="marca-sinal" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 21h8l3-7h4l3 7h8" fill="none" stroke="#a98bff" stroke-width="1.6" stroke-linejoin="round"/><circle cx="4" cy="21" r="3" fill="#d4d4d8"/><circle cx="16" cy="14" r="3" fill="#6100ff"/><circle cx="28" cy="21" r="3" fill="#d4d4d8"/></svg>
         Pedro Cunha
       </a>
-      <div class="estado" aria-label="Estado">
+      <div class="estado">
         <span class="chip chip-no-ar"><span class="pulso"></span>no ar</span>
         <span class="sep esconde"></span>
         <span class="mono esconde">Chapecó, SC</span>
@@ -61,127 +62,184 @@
         <span class="mono esconde" id="relogio"></span>
       </div>
       <nav class="nav" aria-label="Seções">
-        <a href="#como">Como trabalho</a>
-        <a href="#sistemas">Sistemas</a>
+        <a href="#trabalho">Trabalho</a>
+        <a href="#treinamentos">Treinamentos</a>
         <a href="#artigos">Artigos</a>
-        <a href="#trajetoria">Trajetória</a>
+        <a href="#oficio">Front-end</a>
         <a href="#contato">Contato</a>
       </nav>
+      <button class="raio-btn" type="button" aria-pressed="false" data-raio title="Ver o site por dentro">
+        <span class="raio-ico" aria-hidden="true">&lt;/&gt;</span><span class="raio-txt">raio-x</span>
+      </button>
     </div>
   </header>
 
   <main id="conteudo">
-    <section class="hero" id="topo">
-      <div class="wrap">
+    <!-- 00 · HERO -->
+    <section class="hero" id="topo" data-x="section.hero · grid 1.1fr / .9fr">
+      <div class="wrap hero-grade">
         <div class="hero-texto">
-          <p class="label"><span class="mono" style="color:var(--lilas)">00</span> CTO e sócio da Epicora Software House</p>
-          <h1 aria-label="Pedro Cunha">
+          <p class="label"><span class="mono roxo">00</span> CTO e sócio da Epicora Software House</p>
+          <h1 aria-label="Pedro Cunha" data-x="h1 · Space Grotesk 500 · -0.06em">
             <span class="linha" data-letras="0">Pedro</span>
-            <span class="linha"><span data-letras="5">Cunha</span><span class="barra" aria-hidden="true"></span></span>
+            <span class="linha" data-letras="5">Cunha</span>
           </h1>
-          <p class="hero-lead">Eu pego um problema da operação de uma empresa e transformo em sistema que ela usa todo dia. Na Epicora, cuido da tecnologia e do time que constrói software sob medida, e <strong>coloco IA para trabalhar dentro de empresas de verdade</strong>, do atendimento no WhatsApp ao laudo técnico.</p>
+          <p class="rolo" aria-label="Eu construo sistemas sob medida, coloco IA dentro de empresas, treino empresários e times em IA e escrevo front-end desde 2019.">
+            <span aria-hidden="true">Eu</span>
+            <span class="rolo-janela" aria-hidden="true">
+              <span class="rolo-trilho">
+                <span>construo sistemas sob medida.</span>
+                <span>coloco IA dentro de empresas.</span>
+                <span>treino empresários e times em IA.</span>
+                <span>escrevo front-end desde 2019.</span>
+                <span>construo sistemas sob medida.</span>
+              </span>
+            </span>
+          </p>
+          <p class="hero-lead">Lidero o time de tecnologia da Epicora, em Chapecó, que já colocou mais de 60 sistemas no ar para indústria, saúde, agro e serviços. O que a gente aprende construindo eu levo para a sala, em <strong>treinamentos e palestras de IA aplicada a negócios</strong>.</p>
           <div class="acoes">
-            <a class="btn btn-1" href="#sistemas">Ver o que está no ar <svg><use href="#seta"/></svg></a>
-            <a class="btn btn-2" href="#artigos">Ler os artigos</a>
-          </div>
-
-          <div class="traco" aria-label="Como eu trabalho: problema, produto, impacto">
-            <svg id="traco" viewBox="0 0 600 92" role="img" aria-hidden="true">
-              <defs>
-                <linearGradient id="grad-traco" x1="0" x2="1" y1="0" y2="0">
-                  <stop offset="0" stop-color="#6100ff"/>
-                  <stop offset="1" stop-color="#a98bff"/>
-                </linearGradient>
-              </defs>
-              <path class="base" d="M12 46 H190 L214 22 H386 L410 46 H588"/>
-              <path class="linha-viva" d="M12 46 H190 L214 22 H386 L410 46 H588"/>
-              <circle class="part" r="3" opacity="0"/>
-              <circle class="part" r="2.4" opacity="0"/>
-              <circle class="part" r="1.8" opacity="0"/>
-              <circle class="part" r="1.3" opacity="0"/>
-              <circle class="est" data-at="0" cx="12" cy="46" r="7"/><circle class="est-miolo" cx="12" cy="46" r="2.5"/>
-              <circle class="est" data-at="0.5" cx="300" cy="22" r="7"/><circle class="est-miolo" cx="300" cy="22" r="2.5"/>
-              <circle class="est" data-at="1" cx="588" cy="46" r="7"/><circle class="est-miolo" cx="588" cy="46" r="2.5"/>
-              <text class="num" x="4" y="22">01</text>
-              <text x="4" y="78">Problema</text>
-              <text class="num" x="300" y="6" text-anchor="middle">02</text>
-              <text x="300" y="54" text-anchor="middle">Produto</text>
-              <text class="num" x="596" y="22" text-anchor="end">03</text>
-              <text x="596" y="78" text-anchor="end">Impacto</text>
-            </svg>
+            <a class="btn btn-1" href="#treinamentos">Levar um treinamento <svg><use href="#seta"/></svg></a>
+            <a class="btn btn-2" href="#trabalho">Ver o trabalho</a>
           </div>
         </div>
-        <div class="hero-foto">
-          <img src="assets/img/pedro-720.webp" srcset="assets/img/pedro-720.webp 720w, assets/img/pedro-1200.webp 1200w" sizes="(max-width: 1000px) 360px, 520px" width="720" height="1104" alt="Pedro Cunha de braços cruzados, camiseta preta, em estúdio" fetchpriority="high">
+        <figure class="retrato" data-x="canvas · retrato em pontos">
+          <canvas id="retrato" aria-hidden="true"></canvas>
+          <img class="retrato-fallback" src="assets/img/pedro-720.webp" width="720" height="1104" alt="Retrato de Pedro Cunha">
+          <figcaption class="mono"><span id="retrato-pontos">retrato em pontos</span><span class="esconde-m"> · passe o mouse</span></figcaption>
+        </figure>
+      </div>
+      <div class="wrap">
+        <dl class="placar" data-x="dl.placar · 4 colunas">
+          <div><dt>60+</dt><dd>sistemas entregues pelo time</dd></div>
+          <div><dt>40+</dt><dd>empresas atendidas</dd></div>
+          <div><dt>13,5 mil</dt><dd>horas de desenvolvimento</dd></div>
+          <div><dt>2019</dt><dd>a primeira linha de código</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- LOGOS -->
+    <section class="logos" aria-label="Empresas atendidas" data-x="section.logos · marquee só com CSS">
+      <p class="label wrap">Empresas que usam sistemas feitos pelo time que eu lidero</p>
+      <div class="marquee">
+        <div class="marquee-trilho">
+{{LOGOS}}
         </div>
       </div>
     </section>
 
-    <section class="secao" id="como">
+    <!-- 01 · TRABALHO -->
+    <section class="secao" id="trabalho">
       <div class="wrap">
         <div class="secao-cab">
-          <span class="num">01 · Como trabalho</span>
+          <span class="num">01 · Trabalho</span>
           <div>
-            <h2 class="rv">Todo projeto é uma linha que começa num problema e termina num resultado que dá para medir.</h2>
+            <h2 class="rv">Cada projeto começa num problema da operação e só termina quando um número da empresa muda.</h2>
+            <p class="rv" style="--d:1">Alguns sistemas que construímos na Epicora, com o resultado publicado em cada case.</p>
           </div>
         </div>
-        <div class="etapas">
-          <article class="prancha etapa rv" style="--d:0">
-            <span class="n" aria-hidden="true">01</span>
-            <h3>Problema</h3>
-            <p>Começo pela operação, não pela tecnologia. Converso com quem faz o trabalho, vejo onde a planilha, o papel ou o retrabalho estão segurando o negócio e escrevo isso num escopo que o dono da empresa entende.</p>
-            <span class="label">Escopo e protótipo</span>
-            <span class="seta" aria-hidden="true"></span>
-          </article>
-          <article class="prancha etapa rv" style="--d:1">
-            <span class="n" aria-hidden="true">02</span>
-            <h3>Produto</h3>
-            <p>Desenho e construo o sistema com o time da Epicora: aplicativo, plataforma web, integração com o que a empresa já usa e, quando faz sentido, um agente de IA no meio do processo.</p>
-            <span class="label">Arquitetura e desenvolvimento</span>
-            <span class="seta" aria-hidden="true"></span>
-          </article>
-          <article class="prancha etapa rv" style="--d:2">
-            <span class="n" aria-hidden="true">03</span>
-            <h3>Impacto</h3>
-            <p>O projeto só termina quando o sistema está em produção e mexe num número da empresa: mais faturamento, menos custo ou uma receita nova. Depois do lançamento, a gente acompanha esse número.</p>
-            <span class="label">Produção e sustentação</span>
-          </article>
-        </div>
-      </div>
-    </section>
 
-    <section class="secao" id="sistemas">
-      <div class="wrap">
-        <div class="secao-cab">
-          <span class="num">02 · Sistemas no ar</span>
-          <div>
-            <h2 class="rv">Alguns sistemas que construímos na Epicora e que estão rodando agora.</h2>
-            <p class="rv" style="--d:1">Cada linha é um case publicado no site da Epicora, com o problema, o que foi entregue e o resultado.</p>
-          </div>
+        <div class="filtros rv" role="toolbar" aria-label="Filtrar por tipo de projeto" data-x="div.filtros · filtra sem recarregar">
+{{FILTROS}}
         </div>
-        <div class="numeros rv">
-          <div><strong>60+</strong><span>projetos entregues pela Epicora</span></div>
-          <div><strong>40+</strong><span>clientes de indústria, saúde, agro e serviços</span></div>
-          <div><strong>13,5 mil</strong><span>horas de desenvolvimento</span></div>
-        </div>
-        <div class="painel rv" style="--d:1" role="list">
-          <div class="painel-cab" aria-hidden="true"><span>Cód.</span><span>Cliente</span><span>O que mudou</span><span style="text-align:right">Estado</span></div>
-{{SISTEMAS}}
-        </div>
+
+        <ol class="indice" data-x="ol.indice · a prévia segue o cursor">
+{{TRABALHO}}
+        </ol>
+        <div class="preview" aria-hidden="true"><div class="preview-in"></div></div>
+
         <div class="rodape-painel">
-          <span>Fonte: cases publicados em epicora.com.br</span>
-          <a class="link-seta" href="https://epicora.com.br/cases">Todos os cases no site da Epicora <svg><use href="#seta"/></svg></a>
+          <span>Números publicados nos cases do site da Epicora</span>
+          <a class="link-seta" href="https://epicora.com.br/cases">Todos os cases <svg><use href="#seta"/></svg></a>
+        </div>
+
+        <div class="depo rv" data-x="div.depo · troca a cada 7 s">
+          <svg class="depo-aspas" aria-hidden="true"><use href="#aspas"/></svg>
+          <div class="depo-palco">
+{{DEPOIMENTOS}}
+          </div>
+          <div class="depo-ctrl">
+            <span class="mono" id="depo-n">01 / 04</span>
+            <span class="depo-barra"><i></i></span>
+            <button type="button" class="depo-btn" data-depo="-1" aria-label="Depoimento anterior"><svg style="transform:scaleX(-1)"><use href="#seta"/></svg></button>
+            <button type="button" class="depo-btn" data-depo="1" aria-label="Próximo depoimento"><svg><use href="#seta"/></svg></button>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- 02 · TREINAMENTOS -->
+    <section class="secao treino" id="treinamentos">
+      <div class="wrap">
+        <div class="secao-cab">
+          <span class="num">02 · Treinamentos</span>
+          <div>
+            <h2 class="rv">Ensino empresários e times a usar IA no trabalho de verdade, com sistemas rodando na tela.</h2>
+            <p class="rv" style="--d:1">A mesma IA que a Epicora usa para operar e para entregar projeto vira conteúdo de sala: onde ela compensa, como começar e o que não dá para delegar.</p>
+          </div>
+        </div>
+
+        <article class="destaque-palco rv" data-x="article · vídeo em loop de 8 s, 585 KB">
+          <div class="palco-video">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/media/palco-poster.jpg" aria-label="Pedro falando na Conquer Chapecó">
+              <source src="assets/media/palco.webm" type="video/webm">
+              <source src="assets/media/palco.mp4" type="video/mp4">
+            </video>
+            <span class="chip chip-gravado"><span class="pulso"></span>Conquer Chapecó · 23 set 2026</span>
+          </div>
+          <div class="palco-texto">
+            <span class="label">Treinamento para empresários</span>
+            <h3>Mais rápido não é mais longe</h3>
+            <p class="palco-sub">IA aplicada a negócios: como escolher a direção antes de acelerar.</p>
+            <p>Uma noite na Conquer Chapecó, para empresários convidados. Em vez de slide de tendência, a Epicora por dentro: o protótipo que o cliente vê antes do preço, a estimativa feita com IA, o radar de notícias que chega toda manhã e como cada sócio delega o próprio trabalho. Cada pessoa saiu com uma tarefa da empresa para testar na manhã seguinte.</p>
+            <dl class="palco-fatos">
+              <div><dt>46</dt><dd>telas desenhadas para a noite</dd></div>
+              <div><dt>71</dt><dd>de NPS na pesquisa de saída</dd></div>
+              <div><dt>3</dt><dd>passos para começar no dia seguinte</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <div class="slides" data-x="div.slides · scroll-snap e arrastar">
+          <div class="slides-trilho" tabindex="0" aria-label="Telas da palestra; role para o lado">
+            <figure><img src="assets/slides/s01.webp" width="1280" height="720" loading="lazy" draggable="false" alt="Tela de abertura: Mais rápido não é mais longe"><figcaption class="mono">01 · Abertura</figcaption></figure>
+            <figure><img src="assets/slides/s12.webp" width="1280" height="720" loading="lazy" draggable="false" alt="Tela: chat, assistente e agente como três degraus de delegação"><figcaption class="mono">12 · Chat, assistente, agente</figcaption></figure>
+            <figure><img src="assets/slides/s13.webp" width="1280" height="720" loading="lazy" draggable="false" alt="Tela: a régua da confiança, do revisa tudo ao nem olha mais"><figcaption class="mono">13 · A régua da confiança</figcaption></figure>
+            <figure><img src="assets/slides/s21.webp" width="1280" height="720" loading="lazy" draggable="false" alt="Tela: primeiro o que você já faz, só que melhor"><figcaption class="mono">21 · As duas regras de ordem</figcaption></figure>
+            <figure><img src="assets/slides/s42.webp" width="1280" height="720" loading="lazy" draggable="false" alt="Tela: o que fazer amanhã de manhã, em três passos"><figcaption class="mono">42 · Amanhã de manhã</figcaption></figure>
+          </div>
+        </div>
+
+        <div class="treino-grade">
+          <div class="formatos">
+{{FORMATOS}}
+          </div>
+          <div class="temas prancha rv" style="--d:1">
+            <span class="label">Temas</span>
+            <ol>
+{{TEMAS}}
+            </ol>
+          </div>
+        </div>
+
+        <div class="treino-cta rv">
+          <p>Quer levar esse conteúdo para a sua empresa, associação ou evento?</p>
+          <div class="acoes">
+            <a class="btn btn-1" href="mailto:{{EMAIL}}?subject=Treinamento%20de%20IA">Pedir uma proposta <svg><use href="#seta"/></svg></a>
+            <a class="btn btn-2" href="{{LINKEDIN}}" rel="me">Falar pelo LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 · ARTIGOS -->
     <section class="secao" id="artigos">
       <div class="wrap">
         <div class="secao-cab">
           <span class="num">03 · Artigos</span>
           <div>
-            <h2 class="rv">Escrevo toda semana no blog da Epicora sobre decisões de software e IA aplicada.</h2>
-            <p class="rv" style="--d:1">Os textos partem de projetos que estão em operação: quanto custa, como escolher, o que deixar para depois.</p>
+            <h2 class="rv">Toda semana escrevo no blog da Epicora sobre decisões de software e IA aplicada.</h2>
+            <p class="rv" style="--d:1">Os textos partem de projetos em operação: quanto custa, como escolher, o que deixar para depois.</p>
           </div>
         </div>
         <div class="artigos">
@@ -189,48 +247,66 @@
         </div>
         <div class="rodape-painel">
           <span>Os mais recentes, atualizados em {{ATUALIZADO}}</span>
-          <a class="link-seta" href="https://epicora.com.br/blog/autor/pedro">Todos os meus artigos <svg><use href="#seta"/></svg></a>
+          <a class="link-seta" href="{{AUTOR}}">Todos os meus artigos <svg><use href="#seta"/></svg></a>
         </div>
       </div>
     </section>
 
-    <section class="secao" id="trajetoria">
+    <!-- 04 · OFÍCIO -->
+    <section class="secao" id="oficio">
       <div class="wrap">
         <div class="secao-cab">
-          <span class="num">04 · Trajetória</span>
+          <span class="num">04 · Front-end</span>
           <div>
-            <h2 class="rv">Do curso técnico no SENAI à diretoria de tecnologia de uma software house, sem sair de Chapecó.</h2>
+            <h2 class="rv">Comecei pelo front-end, e ainda penso todo produto pela tela que a pessoa vai usar.</h2>
           </div>
         </div>
-        <div class="trajeto">
-          <div class="paradas">
+        <div class="oficio">
+          <div class="paradas" data-x="ol.paradas · a linha segue a rolagem">
             <span class="vivo" aria-hidden="true"></span>
             <ol>
 {{TRAJETORIA}}
             </ol>
           </div>
-          <div class="foto-time">
-            <figure class="rv">
-              <img src="assets/img/time-800.webp" srcset="assets/img/time-800.webp 800w, assets/img/time-1400.webp 1400w" sizes="(max-width: 1000px) 100vw, 560px" width="800" height="533" loading="lazy" alt="Pedro sentado à frente do time da Epicora, que trabalha na mesa comprida do escritório">
-              <figcaption><span>O time da Epicora no escritório</span><span class="mono">Chapecó, SC</span></figcaption>
-            </figure>
-            <article class="prancha palco rv" style="--d:1">
-              <span class="label">Palco</span>
-              <h3>Mais rápido não é mais longe</h3>
-              <p>Treinamento de IA aplicada a negócios para empresários, na Conquer Chapecó, em setembro de 2026. O assunto foi onde a IA compensa numa empresa, com sistemas rodando na tela.</p>
-            </article>
+          <div class="oficio-lado">
+            <div class="editor rv" data-x="div.editor · código digitado em JS">
+              <div class="editor-barra"><i></i><i></i><i></i><span class="mono">assets/site.js</span></div>
+              <pre class="editor-codigo" aria-label="Trecho do código que desenha o retrato em pontos"><code id="codigo"></code></pre>
+            </div>
+            <div class="spec prancha rv" style="--d:1">
+              <span class="label">Este site</span>
+              <ul>
+                <li><b>HTML, CSS e JavaScript</b> escritos à mão, sem framework.</li>
+                <li><b id="spec-pontos">Milhares de pontos</b> no retrato, desenhados em canvas a cada quadro.</li>
+                <li><b>Artigos</b> puxados do RSS do blog toda segunda, sem ninguém mexer.</li>
+                <li><b>Movimento</b> que se desliga quando o aparelho pede menos animação.</li>
+              </ul>
+              <button class="btn btn-2" type="button" data-raio>Ligar o raio-x <svg><use href="#seta"/></svg></button>
+            </div>
+            <div class="stack rv" style="--d:2">
+{{STACK}}
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- 05 · CONTATO -->
     <section class="contato" id="contato">
       <div class="wrap">
-        <p class="label rv"><span class="mono" style="color:var(--lilas)">05</span> Contato</p>
-        <h2 class="rv" style="margin-top:20px">Tem um processo travando a sua empresa? <span>Me conta qual é.</span></h2>
-        <div class="acoes rv" style="--d:1">
-          <a class="btn btn-1" href="https://epicora.com.br/contato">Falar com a Epicora <svg><use href="#seta"/></svg></a>
-          <a class="btn btn-2" href="{{LINKEDIN}}" rel="me">Me chamar no LinkedIn</a>
+        <p class="label rv"><span class="mono roxo">05</span> Contato</p>
+        <h2 class="rv">Vamos conversar.</h2>
+        <div class="portas">
+          <a class="porta rv" href="mailto:{{EMAIL}}?subject=Treinamento%20de%20IA">
+            <span class="label">Treinamento ou palestra</span>
+            <strong>IA aplicada para a sua empresa, associação ou evento.</strong>
+            <span class="porta-ir">{{EMAIL}} <svg><use href="#seta"/></svg></span>
+          </a>
+          <a class="porta rv" style="--d:1" href="https://epicora.com.br/contato">
+            <span class="label">Projeto de software</span>
+            <strong>Tem um processo travando a operação? A Epicora constrói o sistema.</strong>
+            <span class="porta-ir">epicora.com.br/contato <svg><use href="#seta"/></svg></span>
+          </a>
         </div>
         <div class="redes rv" style="--d:2">
           <a href="{{LINKEDIN}}" rel="me"><strong>LinkedIn</strong><span>Bastidores da semana</span><svg><use href="#sai"/></svg></a>
@@ -246,9 +322,21 @@
   <footer class="rodape">
     <div class="wrap">
       <span>© {{ANO}} Pedro Henrique Hoffmann da Cunha</span>
-      <span class="mono">Chapecó · Santa Catarina · Brasil</span>
+      <span class="mono">Feito à mão em Chapecó · Santa Catarina</span>
     </div>
   </footer>
+
+  <div class="raio-painel" hidden>
+    <div class="raio-cab"><span class="mono">raio-x</span><button type="button" data-raio aria-label="Desligar o raio-x">×</button></div>
+    <dl>
+      <div><dt>quadros/s</dt><dd id="rx-fps">–</dd></div>
+      <div><dt>nós no DOM</dt><dd id="rx-dom">–</dd></div>
+      <div><dt>transferido</dt><dd id="rx-peso">–</dd></div>
+      <div><dt>pontos no canvas</dt><dd id="rx-pontos">–</dd></div>
+      <div><dt>frameworks</dt><dd>0</dd></div>
+    </dl>
+  </div>
+  <div class="raio-camada" aria-hidden="true"></div>
 
   <script src="assets/site.js?v={{VERSAO}}" defer></script>
 </body>

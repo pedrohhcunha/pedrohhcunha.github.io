@@ -1,12 +1,19 @@
 # Pedro Cunha
 
-> Pedro Henrique Hoffmann da Cunha é CTO e sócio da Epicora Software House, software house de Chapecó (SC) que constrói software sob medida e coloca IA para trabalhar dentro de empresas.
+> Pedro Henrique Hoffmann da Cunha é CTO e sócio da Epicora Software House, software house de Chapecó (SC). Lidera o time que constrói software sob medida e dá treinamentos e palestras de IA aplicada a negócios para empresários e times.
 
 ## Quem é
 - Cargo: CTO (Diretor de Tecnologia) e sócio da Epicora Software House, desde 2024.
 - Cidade: Chapecó, Santa Catarina, Brasil.
 - Formação: Técnico em Desenvolvimento de Sistemas (SESI SENAI) e Análise e Desenvolvimento de Sistemas (Faculdade SENAI).
-- Trabalho: escopo, arquitetura e entrega de sistemas sob medida (aplicativos, plataformas web, integrações e agentes de IA) para empresas de indústria, saúde, agro e serviços.
+- Origem: desenvolvedor front-end desde 2019.
+- Trabalho: escopo, arquitetura e entrega de sistemas sob medida (aplicativos, plataformas web, integrações e agentes de IA). O time já entregou mais de 60 sistemas para mais de 40 empresas.
+
+## Treinamentos e palestras de IA
+- "Mais rápido não é mais longe: IA aplicada a negócios", treinamento para empresários na Conquer Chapecó, 23/09/2026.
+- Formatos: Palestra (60 a 90 min); Treinamento in company (Meio período); Workshop para times de tecnologia (1 dia).
+- Temas: Onde a IA compensa na sua empresa, e onde não compensa; Chat, assistente ou agente: o que dá para delegar; Como organizar o conhecimento da empresa para a IA; Como fazer a IA seguir o método da sua empresa; Quanto custa pôr IA para trabalhar dentro do sistema; Dado da empresa na IA: o que pode e o que não pode.
+- Contato para treinamentos: pedro.cunha@epicora.com.br
 
 ## Perfis
 - [LinkedIn](https://www.linkedin.com/in/pedrohhcunha/)
@@ -24,16 +31,16 @@
 - [Chat, assistente ou agente de IA: como escolher o nível certo para cada tarefa da empresa](https://epicora.com.br/blog/chat-assistente-agente-ia) (2026-09-26)
 
 ## Sistemas construídos na Epicora (cases públicos)
-- [Cleantec](https://epicora.com.br/cases/cleantec): Do Excel à rastreabilidade total da higienização
-- [Ideal Veículos](https://epicora.com.br/cases/ideal): A operação de crédito de 11 lojas saiu da planilha
-- [ProHire](https://epicora.com.br/cases/prohire): Um ecossistema que conecta empresas e profissionais
-- [Bravio Combat Club](https://epicora.com.br/cases/bravio): Um clube que só existia no Instagram ganhou site próprio
-- [Fitness Academia](https://epicora.com.br/cases/fitness-academia): A meta comercial de cinco unidades saiu da planilha
-- [Helpe](https://epicora.com.br/cases/helpe): Assinatura para quem presta, busca livre para quem contrata
-- [Sistema Cuidar](https://epicora.com.br/cases/cuidar): O laudo de riscos psicossociais da NR-1 nasce da própria coleta
-- [Reticar Motores](https://epicora.com.br/cases/reticar): A equipe comercial trocou o app antigo por um que trabalha sem internet
-- [Sistema Forja](https://epicora.com.br/cases/forja): Um produto feito com IA ganhou segurança e uma conta de infraestrutura menor
-- [Casa Follow Up](https://epicora.com.br/cases/casa-follow-up): O que acontece com o paciente entre duas consultas deixou de depender da memória dele
-- [DNA Genética do Brasil](https://epicora.com.br/cases/sheep-gen): 4,3 GB do laboratório viram um laudo por animal
-- [Agência OKSE](https://epicora.com.br/cases/okse): Site novo em oito horas e um agente de IA no primeiro contato do WhatsApp
-- [Beckers Automação Industrial](https://epicora.com.br/cases/beckers): O laudo do ventilador sai pronto da bancada
+- [Ideal Veículos](https://epicora.com.br/cases/ideal): A operação de crédito das 11 lojas saiu da planilha. 11.364 financiamentos processados em 11 lojas.
+- [DNA Genética do Brasil](https://epicora.com.br/cases/sheep-gen): 4,3 GB do laboratório viram uma página por animal. 735 laudos genéticos emitidos no clique.
+- [Fitness Academia](https://epicora.com.br/cases/fitness-academia): Cinco planilhas de meta viraram um número só. 104% da meta da rede no primeiro mês.
+- [Beckers Automação Industrial](https://epicora.com.br/cases/beckers): O laudo do ventilador sai pronto da bancada. 428 relatórios técnicos emitidos pelo app.
+- [Sistema Cuidar](https://epicora.com.br/cases/cuidar): O laudo da NR-1 nasce da própria coleta. 370 respostas anônimas; 5 seções do laudo escritas por IA.
+- [ProHire](https://epicora.com.br/cases/prohire): App e web juntando RH e profissionais. +590% vagas criadas no mês.
+- [Agência OKSE](https://epicora.com.br/cases/okse): Site novo e IA no primeiro contato do WhatsApp num dia. 8 h do site antigo ao novo no ar, com agente de IA atendendo.
+- [Reticar Motores](https://epicora.com.br/cases/reticar): O vendedor trabalha sem internet e nada se perde. 100% da operação comercial migrada para o app offline.
+- [Cleantec](https://epicora.com.br/cases/cleantec): Do Excel à rastreabilidade total da higienização. 460+ análises de microbiologia por mês.
+- [Casa Follow Up](https://epicora.com.br/cases/casa-follow-up): O paciente acompanhado entre uma consulta e outra. 18 protocolos clínicos em operação.
+- [Sistema Forja](https://epicora.com.br/cases/forja): Um produto feito com IA ficou seguro e barato de manter. ~US$ 20 de infraestrutura por mês, antes ~R$ 2.000.
+- [Helpe](https://epicora.com.br/cases/helpe): Assinatura para quem presta, busca livre para quem contrata. 24 categorias de serviço no marketplace.
+- [Bravio Combat Club](https://epicora.com.br/cases/bravio): Um clube que só existia no Instagram ganhou site próprio. 5 sem. do briefing ao site no ar.

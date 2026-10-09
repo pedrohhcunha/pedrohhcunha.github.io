@@ -4,9 +4,10 @@ const path = require('path');
 const { chromium } = require(process.env.PLAYWRIGHT_PATH || 'C:/Users/Phhcp/.claude/plugins/marketplaces/epicora-brand/plugins/epicora-brand/node_modules/playwright');
 const raiz = path.resolve(__dirname, '..');
 (async () => {
-  const b = await chromium.launch();
+  const b = await chromium.launch({ args: ['--allow-file-access-from-files'] });
   const p = await b.newPage({ viewport: { width: 1200, height: 630 } });
   await p.goto('file://' + path.join(raiz, 'tools/og.html'));
+  await p.waitForSelector('body[data-pronto]');
   await p.evaluate(() => document.fonts.ready);
   await p.waitForTimeout(400);
   await p.screenshot({ path: path.join(raiz, 'assets/og.jpg'), type: 'jpeg', quality: 88 });

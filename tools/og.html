@@ -3,23 +3,26 @@
 <style>
 html,body{margin:0;width:1200px;height:630px;background:#08080a;overflow:hidden}
 body{position:relative;font-family:Alexandria,sans-serif;color:#f4f4f5}
-.grade{position:absolute;inset:0;background-image:linear-gradient(#24242c 1px,transparent 1px),linear-gradient(90deg,#24242c 1px,transparent 1px);background-size:64px 64px;opacity:.35;-webkit-mask-image:radial-gradient(520px circle at 30% 45%,#000,transparent 75%)}
-.foto{position:absolute;right:30px;bottom:0;height:640px;-webkit-mask-image:radial-gradient(ellipse 50% 58% at 50% 42%,#000 42%,transparent 100%);filter:grayscale(.15) brightness(.92)}
-.t{position:absolute;left:72px;top:92px}
+canvas{position:absolute;right:40px;top:-10px;width:520px;height:653px}
+.t{position:absolute;left:72px;top:84px}
 .l{font:500 14px Alexandria;letter-spacing:.12em;text-transform:uppercase;color:#8b8b93}
 .l b{font:400 14px 'Space Mono';color:#a98bff;margin-right:10px;letter-spacing:0}
-h1{margin:22px 0 0;font:500 132px/.84 'Space Grotesk';letter-spacing:-.06em;color:#fff}
-h1 i{display:inline-block;width:.36em;height:.11em;border-radius:4px;background:#6100ff;margin-left:.06em;vertical-align:.08em}
-p{margin:30px 0 0;font:300 24px/1.45 Alexandria;color:#a1a1aa;max-width:560px}
-svg{position:absolute;left:72px;bottom:60px}
-svg text{font:500 12px Alexandria;letter-spacing:.1em;text-transform:uppercase;fill:#8b8b93}
+h1{margin:22px 0 0;font:500 136px/.82 'Space Grotesk';letter-spacing:-.065em;color:#fff}
+h1 span{display:block;padding-left:.5em;color:transparent;-webkit-text-stroke:2px #d4d4d8}
+p{margin:34px 0 0;font:500 30px/1.25 'Space Grotesk';letter-spacing:-.02em;color:#fff}
+p i{font-style:normal;color:#a98bff}
+.m{position:absolute;left:72px;bottom:56px;font:400 15px 'Space Mono';color:#8b8b93}
 </style></head><body>
-<div class="grade"></div>
-<img class="foto" src="og-src.jpg">
-<div class="t"><div class="l"><b>00</b>CTO e sócio da Epicora</div><h1>Pedro<br>Cunha<i></i></h1><p>Software sob medida e IA trabalhando dentro de empresas de verdade.</p></div>
-<svg width="560" height="80" viewBox="0 0 600 86"><defs><linearGradient id="g"><stop offset="0" stop-color="#6100ff"/><stop offset="1" stop-color="#a98bff"/></linearGradient></defs>
-<path d="M12 40 H190 L214 16 H386 L410 40 H588" fill="none" stroke="url(#g)" stroke-width="2"/>
-<g fill="#1c0b3d" stroke="#a98bff"><circle cx="12" cy="40" r="7"/><circle cx="300" cy="16" r="7"/><circle cx="588" cy="40" r="7"/></g>
-<g fill="#a98bff"><circle cx="12" cy="40" r="2.5"/><circle cx="300" cy="16" r="2.5"/><circle cx="588" cy="40" r="2.5"/></g>
-<text x="4" y="76">Problema</text><text x="300" y="48" text-anchor="middle">Produto</text><text x="596" y="76" text-anchor="end">Impacto</text></svg>
+<canvas id="c"></canvas>
+<div class="t"><div class="l"><b>00</b>CTO e sócio da Epicora</div><h1>Pedro<span>Cunha</span></h1><p>Software sob medida e<br><i>treinamentos de IA para empresas.</i></p></div>
+<div class="m">pedrohhcunha.github.io</div>
+<script>
+const img=new Image();img.src='../assets/img/retrato-pontos.png';
+img.onload=()=>{const c=document.getElementById('c'),w=520,h=653,d=2;c.width=w*d;c.height=h*d;const x=c.getContext('2d');x.scale(d,d);
+const o=document.createElement('canvas');o.width=img.width;o.height=img.height;const ox=o.getContext('2d');ox.drawImage(img,0,0);const px=ox.getImageData(0,0,o.width,o.height).data;
+const s=6;for(let y=s/2;y<h;y+=s)for(let X=s/2;X<w;X+=s){const sx=Math.floor(X/w*o.width),sy=Math.floor(y/h*o.height);let v=px[(sy*o.width+sx)*4]/255*Math.min(1,(h-y)/(h*.14));
+if(v<.09){x.fillStyle='#26262e';x.beginPath();x.arc(X,y,.6,0,7);x.fill();continue}
+const r=(.28+v*.62)*s*.5;x.fillStyle=`rgb(${169+63*v|0},${139+93*v|0},${255-19*v|0})`;x.beginPath();x.arc(X,y,r,0,7);x.fill()}
+document.body.dataset.pronto=1};
+</script>
 </body></html>
