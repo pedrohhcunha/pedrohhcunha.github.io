@@ -1,0 +1,114 @@
+[
+  {
+    "titulo": "Quanto custa pôr IA para trabalhar dentro do sistema da empresa, e o que faz essa conta subir ou cair",
+    "link": "https://epicora.com.br/blog/quanto-custa-ia-na-empresa",
+    "data": "2026-10-09",
+    "tema": "IA aplicada com responsabilidade",
+    "resumo": "Quando a IA roda dentro de um sistema da empresa, a conta é por token, e uma conversa de atendimento custa centavos: no Balcão, nossa plataforma de atendimento por WhatsApp, a triagem sai por cerca de R$ 0,15 a conversa. O que mais pesa é o texto que a IA relê a cada resposta, e o cache de prompt cobra esse trecho a 10% do preço ou menos; o tamanho do modelo vem em seguida, com diferença de até 100 vezes entre o maior e o menor da mesma empresa. A conta também muda quando se mede o resultado: na simulação de um agente de vendas, o modelo quatro vezes mais caro levou mais leads à call, e a conta por resultado ficou a favor dele.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "Quando o app feito no Lovable precisa sair do Lovable, e quando não precisa",
+    "link": "https://epicora.com.br/blog/quando-sair-do-lovable",
+    "data": "2026-10-08",
+    "tema": "IA aplicada com responsabilidade",
+    "resumo": "Sair do Lovable pode ser tirar a hospedagem, tirar o banco da Lovable Cloud ou parar de construir pela ferramenta, e as duas primeiras se fazem sem a terceira: no Sistema Forja, a infraestrutura foi de cerca de R$ 2.000 para cerca de US$ 20 por mês e o cliente continuou editando o app pelo Lovable. Quem ainda está validando a ideia fica onde está. Reconstruir só se justifica em parte, quando a busca é o produto ou quando o dinheiro passa pelo app.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "Aplicativo ou sistema web: como decidir o que vai para o celular",
+    "link": "https://epicora.com.br/blog/aplicativo-ou-sistema-web",
+    "data": "2026-10-05",
+    "tema": "Aplicativos e lojas",
+    "resumo": "A pergunta se responde por perfil de usuário, e não para o sistema inteiro. Aplicativo faz sentido para quem trabalha longe de uma mesa e precisa do que só ele faz bem: funcionar sem sinal, falar com um equipamento por Bluetooth, usar a localização com a tela apagada. Quem administra, quem usa de vez em quando e quem chega por um link fica na web. Nos nossos projetos com app, a web continua fazendo tudo e o aplicativo faz só o trabalho de campo: na Beckers, o técnico preenche o laudo num app Android e o escritório lê tudo no sistema web.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "Como organizar o conhecimento da empresa para a IA trabalhar com ele",
+    "link": "https://epicora.com.br/blog/organizar-conhecimento-empresa-ia",
+    "data": "2026-09-30",
+    "tema": "IA aplicada com responsabilidade",
+    "resumo": "Para a IA trabalhar do jeito da sua empresa, não é preciso treinar um modelo. É preciso organizar o que a empresa sabe num lugar que a IA consiga ler na hora de trabalhar. Usamos o método do segundo cérebro, do Tiago Forte: capturar tudo o que entra, organizar em quatro gavetas (projetos, áreas, recursos e arquivos), escrever cada processo uma vez só e dividir o trabalho com uma regra simples. A IA fica com o volume, que é capturar e organizar, e as pessoas ficam com o juízo, que é decidir e produzir.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "Chat, assistente ou agente de IA: como escolher o nível certo para cada tarefa da empresa",
+    "link": "https://epicora.com.br/blog/chat-assistente-agente-ia",
+    "data": "2026-09-26",
+    "tema": "IA aplicada com responsabilidade",
+    "resumo": "Chat, assistente e agente são três níveis de delegação para a IA. No chat, você pergunta e ela esquece. No assistente, ela aprendeu um processo seu e ajuda quando você chama. No agente, ela decide sozinha quando agir e onde deixar o resultado. O que escolhe o nível é a confiança que você já tem no que ela entrega e o custo de um erro, e não a sofisticação da tarefa: o processo mais importante da nossa empresa, o orçamento, roda inteiro no nível de assistente, e o contrato que levava até 40 minutos para montar passou a levar 5.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "Planilha, ERP de mercado ou sistema sob medida: quase sempre a resposta é mais de um",
+    "link": "https://epicora.com.br/blog/planilha-erp-sob-medida",
+    "data": "2026-09-17",
+    "tema": "Decidir e comprar software sob medida",
+    "resumo": "Planilha, ERP de mercado e sistema sob medida não disputam o mesmo lugar: ocupam camadas diferentes da mesma operação, e quase toda empresa saudável usa os três ao mesmo tempo. O erro caro não é escolher errado entre eles, é trocar de camada sem precisar: numa rede de cinco academias, o ERP de mercado continuou sendo a fonte da venda e o sistema sob medida só passou a ler dele a cada cinco minutos. A planilha, por sua vez, deixa de servir por três motivos objetivos, e nenhum deles é tamanho.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "A regra que muda toda semana não deveria estar no código",
+    "link": "https://epicora.com.br/blog/parametrizar-regra-de-negocio",
+    "data": "2026-09-09",
+    "tema": "Como o sistema é desenhado",
+    "resumo": "Todo pedido de mudança que exige deploy para trocar um número, um prazo ou um limite é uma decisão de arquitetura que foi tomada errado antes. No SheepGen, a interpretação genética virou 1.103 regras cadastradas como dado, e um marcador novo recalcula os 735 laudos do rebanho em 4 minutos, sem programador no caminho. Mas parametrizar sem forma de conferir é pior que código: o mesmo motor foi validado contra uma implementação independente, com zero divergência em 55.050 leituras.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "O que decide a plataforma de um site institucional",
+    "link": "https://epicora.com.br/blog/plataforma-site-institucional",
+    "data": "2026-09-09",
+    "tema": "Decidir e comprar software sob medida",
+    "resumo": "A decisão de plataforma de um site institucional em 2026 não é mais construtor contra sob medida: é gerador de IA contra desenvolvimento profissional. Não recomendamos construtor de site para nenhum caso novo, e para site pequeno, sem dado pessoal e sem busca como canal de venda, o gerador de IA basta. O caso sai do gerador no dia em que alguém precisa responder por performance, SEO, GEO, AEO, segurança e LGPD.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "Como fazer a IA seguir o método da sua empresa",
+    "link": "https://epicora.com.br/blog/restringir-ia-metodologia",
+    "data": "2026-08-26",
+    "tema": "IA aplicada com responsabilidade",
+    "resumo": "Restringir um modelo à metodologia da sua empresa não é escrever um prompt melhor nem treinar um modelo próprio — é tirar das mãos dele o que não pode dar errado. São quatro camadas: o método escrito fora do prompt e lido na hora de usar, o cálculo em código, a lista do proibido com o vocabulário que entra no lugar, e um freio que barra a ação em vez de pedir bom comportamento. No laudo do Sistema Cuidar isso significa que a IA escreve 5 das 15 seções e nenhum número do documento saiu de um modelo de linguagem.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "De quem é a conta da App Store: sua ou de quem desenvolve o app",
+    "link": "https://epicora.com.br/blog/conta-desenvolvedor-app-store",
+    "data": "2026-08-18",
+    "tema": "Aplicativos e lojas",
+    "resumo": "Ser dono do app são três coisas decididas em lugares diferentes: o código, no contrato; a ficha na loja, na conta de desenvolvedor; e a capacidade de publicar a próxima versão, nos certificados de assinatura — e quem controla a conta controla o produto. O que importa não é em qual conta o app nasce, e sim em qual conta ele termina, se a sua já começou a ser aberta no primeiro dia e se a migração é um passo previsto no contrato. Já fizemos esse caminho até o fim: a migração preserva avaliações e base instalada, e quebra coisas específicas que precisam estar mapeadas antes.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "Integrar com o ERP: o que o sistema do outro lado decide por você",
+    "link": "https://epicora.com.br/blog/integrar-erp-terceiro",
+    "data": "2026-08-11",
+    "tema": "Como o sistema é desenhado",
+    "resumo": "A arquitetura de uma integração não é escolha sua: ela é imposta pelo que o outro sistema oferece. Em três integrações que construímos — NextFit, Altimus e Controlle — a mesma pergunta (o que mudou lá?) teve três respostas diferentes, porque as fontes eram diferentes. E o que a fonte não entrega vira limite do seu produto, não só linha de código.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "O que dá para salvar de um código gerado por IA",
+    "link": "https://epicora.com.br/blog/salvar-codigo-gerado-por-ia",
+    "data": "2026-08-11",
+    "tema": "IA aplicada com responsabilidade",
+    "resumo": "O que quebra num produto feito com IA não é o código feio: é a fronteira. No app que auditamos, os oito endpoints de servidor aceitavam requisição sem autenticação — inclusive os de pagamento — e dado privado de qualquer usuário estava visível para os outros. Nada disso exigiu reescrever o produto: o cliente continuou evoluindo o app pela mesma IA depois que a base foi corrigida.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "Quando o sistema legado precisa ser substituído — e quando não precisa",
+    "link": "https://epicora.com.br/blog/substituir-sistema-legado",
+    "data": "2026-08-07",
+    "tema": "Decidir e comprar software sob medida",
+    "resumo": "Sistema antigo, feio ou lento não é motivo para trocar: dos nove sistemas que já existiam quando chegamos, substituímos dois e mantemos cinco. Os sinais que decidem são outros — ninguém consegue mexer no sistema, você perdeu o acesso ao próprio produto, a operação já criou um caminho por fora. E antes de todos eles, uma auditoria do que você já tem: num caso recente, três dos quatro pedidos do cliente já existiam no sistema atual, desligados.",
+    "autor": "Pedro Cunha"
+  },
+  {
+    "titulo": "O que muda num sistema quando o app precisa funcionar sem sinal",
+    "link": "https://epicora.com.br/blog/app-offline-first-equipe-campo",
+    "data": "2026-08-05",
+    "tema": "Aplicativos e lojas",
+    "resumo": "Offline-first não é uma funcionalidade do aplicativo: é uma decisão que muda o banco, o servidor e o escopo do produto — principalmente o que não vai para o aparelho. E um app que promete offline e trava é pior que um app online honesto: a diferença entre os dois está em detalhes que quase nunca aparecem na proposta.",
+    "autor": "Pedro Cunha"
+  }
+]

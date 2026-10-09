@@ -1,0 +1,49 @@
+# Publica o site no GitHub Pages.
+# Roda a cada push na master e toda segunda às 06h (Brasília), para puxar
+# os artigos novos do blog da Epicora (RSS) sem ninguém precisar mexer.
+name: Publicar site
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gerar páginas
+        run: node build.mjs
+      - name: Separar o que vai para o ar
+        run: |
+          mkdir _site
+          cp -r index.html 404.html favicon.svg robots.txt sitemap.xml llms.txt .nojekyll assets links blog _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,39 @@
+# Pedro Cunha
+
+> Pedro Henrique Hoffmann da Cunha é CTO e sócio da Epicora Software House, software house de Chapecó (SC) que constrói software sob medida e coloca IA para trabalhar dentro de empresas.
+
+## Quem é
+- Cargo: CTO (Diretor de Tecnologia) e sócio da Epicora Software House, desde 2024.
+- Cidade: Chapecó, Santa Catarina, Brasil.
+- Formação: Técnico em Desenvolvimento de Sistemas (SESI SENAI) e Análise e Desenvolvimento de Sistemas (Faculdade SENAI).
+- Trabalho: escopo, arquitetura e entrega de sistemas sob medida (aplicativos, plataformas web, integrações e agentes de IA) para empresas de indústria, saúde, agro e serviços.
+
+## Perfis
+- [LinkedIn](https://www.linkedin.com/in/pedrohhcunha/)
+- [Instagram](https://www.instagram.com/pedrohhcunha/)
+- [YouTube](https://www.youtube.com/@pedrohhcunha)
+- [GitHub](https://github.com/pedrohhcunha)
+- [Página de autor no blog da Epicora](https://epicora.com.br/blog/autor/pedro)
+- [Epicora Software House](https://epicora.com.br)
+
+## Artigos recentes
+- [Quanto custa pôr IA para trabalhar dentro do sistema da empresa, e o que faz essa conta subir ou cair](https://epicora.com.br/blog/quanto-custa-ia-na-empresa) (2026-10-09)
+- [Quando o app feito no Lovable precisa sair do Lovable, e quando não precisa](https://epicora.com.br/blog/quando-sair-do-lovable) (2026-10-08)
+- [Aplicativo ou sistema web: como decidir o que vai para o celular](https://epicora.com.br/blog/aplicativo-ou-sistema-web) (2026-10-05)
+- [Como organizar o conhecimento da empresa para a IA trabalhar com ele](https://epicora.com.br/blog/organizar-conhecimento-empresa-ia) (2026-09-30)
+- [Chat, assistente ou agente de IA: como escolher o nível certo para cada tarefa da empresa](https://epicora.com.br/blog/chat-assistente-agente-ia) (2026-09-26)
+
+## Sistemas construídos na Epicora (cases públicos)
+- [Cleantec](https://epicora.com.br/cases/cleantec): Do Excel à rastreabilidade total da higienização
+- [Ideal Veículos](https://epicora.com.br/cases/ideal): A operação de crédito de 11 lojas saiu da planilha
+- [ProHire](https://epicora.com.br/cases/prohire): Um ecossistema que conecta empresas e profissionais
+- [Bravio Combat Club](https://epicora.com.br/cases/bravio): Um clube que só existia no Instagram ganhou site próprio
+- [Fitness Academia](https://epicora.com.br/cases/fitness-academia): A meta comercial de cinco unidades saiu da planilha
+- [Helpe](https://epicora.com.br/cases/helpe): Assinatura para quem presta, busca livre para quem contrata
+- [Sistema Cuidar](https://epicora.com.br/cases/cuidar): O laudo de riscos psicossociais da NR-1 nasce da própria coleta
+- [Reticar Motores](https://epicora.com.br/cases/reticar): A equipe comercial trocou o app antigo por um que trabalha sem internet
+- [Sistema Forja](https://epicora.com.br/cases/forja): Um produto feito com IA ganhou segurança e uma conta de infraestrutura menor
+- [Casa Follow Up](https://epicora.com.br/cases/casa-follow-up): O que acontece com o paciente entre duas consultas deixou de depender da memória dele
+- [DNA Genética do Brasil](https://epicora.com.br/cases/sheep-gen): 4,3 GB do laboratório viram um laudo por animal
+- [Agência OKSE](https://epicora.com.br/cases/okse): Site novo em oito horas e um agente de IA no primeiro contato do WhatsApp
+- [Beckers Automação Industrial](https://epicora.com.br/cases/beckers): O laudo do ventilador sai pronto da bancada
